@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" className="img-fluid logo " />
         </header>
         <main>
           <Dictionary />
