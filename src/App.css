@@ -1,3 +1,13 @@
+body {
+    background-color: #f7f1f8;
+}
+
+.App {
+    padding: 60px 0 100px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 .App header {
     margin: 30px 0;
 }
@@ -6,4 +16,13 @@
     max-width: 100px;
     display: block;
     margin: 0 auto;
+}
+
+.form-conrol {
+    padding: 15px 15px;
+}
+
+.App footer {
+    margin-top: 20px;
+    font-size: 13px;
 }
