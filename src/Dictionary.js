@@ -4,7 +4,7 @@ import axios from "axios";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
-  let [answear, setAnswear] = useState(null);
+  let [result, setResult] = useState(null);
 
   function handleKeywordChange(event) {
     setKeyword(event.target.value);
@@ -18,7 +18,7 @@ export default function Dictionary() {
   }
 
   function handleResponse(response) {
-    setAnswear(response.data[0]);
+    setResult(response.data[0]);
   }
 
   return (
@@ -26,7 +26,7 @@ export default function Dictionary() {
       <form onSubmit={search}>
         <input type="search" onChange={handleKeywordChange} />
       </form>
-      <Results results={answear} />
+      <Results results={result} />
     </div>
   );
 }
