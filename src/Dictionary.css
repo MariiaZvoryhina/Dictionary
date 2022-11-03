@@ -10,7 +10,7 @@
 .Dictionary section {
     box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
     border-radius: 8px;
-    background: #fff;
+    background: #f1f0f1;
     margin-top: 10px;
     padding: 40px;
 }
@@ -23,7 +23,7 @@
 .Dictionary .search-input {
     display: block;
     height: 50px;
-    color: #666;
+    background-color: #f1f0f1;
     font-size: 18px;
     line-height: 20px;
     padding: 18px;

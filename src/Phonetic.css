@@ -1,6 +1,8 @@
 audio {
     margin: 15px;
     margin-left: 0px;
+    border: 2px solid #D9E4EA;
+    border-radius: 8px;
 }
 
 .Phonetic h2 {

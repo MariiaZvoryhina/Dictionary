@@ -1,5 +1,5 @@
 body {
-    background-color: #f7f1f8;
+    background-color: #d9e4ea;
 }
 
 .App {
@@ -25,6 +25,7 @@ body {
     max-width: 150px;
     display: block;
     margin: 0 auto;
+
 }
 
 .form-conrol {
